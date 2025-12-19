@@ -77,6 +77,12 @@ The analysis is fully deterministic:
 
 Given the same input files and the same manually identified tack timestamps, the results can be reproduced exactly.
 
+Radar Chart Parameters
+
+If the analysis is adapted to a different regatta or to different performance metrics, the parameters used for the radar charts must be reviewed and updated accordingly.
+
+In particular, axis ranges, normalization bounds, and reference values are currently tuned to the characteristics of the analyzed event and athletes. All radar-related parameters are explicitly highlighted in the notebook and should be adjusted to ensure meaningful and comparable visualizations.
+
 ---
 
 ## Data Sources and Usage
